@@ -32,7 +32,7 @@ export default function TodoList(props){
             return(
                 prevStore.map((arrayItem)=>{
                     return(
-                        arrayItem.id === id && { ...arrayItem, completed: !arrayItem.completed}
+                        arrayItem.id === id ? { ...arrayItem, completed: !arrayItem.completed} : arrayItem
                     )
                 })
             )
