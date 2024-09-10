@@ -30,7 +30,7 @@ export default function Form(props){
     }
 
     // console.log(props.todoStore)
-    console.log(props.store)
+    // console.log(props.store)
 
     return(
         <form action="" className="form-cont" onSubmit={onFormSubmit}>

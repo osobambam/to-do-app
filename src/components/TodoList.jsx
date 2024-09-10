@@ -44,6 +44,7 @@ export default function TodoList(props){
         setEditId(id)
         setEditedContent(findTodo.activity)
     }
+    // console.log("This is the edit id ", editId)
 
     function handleEditChange(event) {
         setEditedContent(event.target.value);
